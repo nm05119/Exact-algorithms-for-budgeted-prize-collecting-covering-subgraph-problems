@@ -1,9 +1,9 @@
 ---------------------------------------------------------------------------------------------------------------
-Exact algorithms for budgeted prize-collecting covering subgraph problems
-
 authors: Nicola Morandi, Roel Leus, Hande Yaman
 
 affiliation: ORSTAT group, Faculty of Economics and Business, KU Leuven, Belgium
+
+Exact algorithms for budgeted prize-collecting covering subgraph problems
 ---------------------------------------------------------------------------------------------------------------
 
 This public repository contains the instances, the parameter settings and the computational results
