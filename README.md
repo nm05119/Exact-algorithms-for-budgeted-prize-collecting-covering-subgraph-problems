@@ -9,7 +9,8 @@ Exact algorithms for budgeted prize-collecting covering subgraph problems
 This public repository contains the instances, the parameter settings and the computational results
 of the two cases of budgeted prize-collecting covering subgraph problems considered in the paper mentioned above.
 
-For the definition of the symbols and the terms here used, we refer to the paper mentioned above.
+For the definition of the symbols and the terms here used, and for references to the original sources of the 
+instances, we refer to the paper mentioned above.
 
 The directory "Instances" contains six .inst files, corresponding to the six base instances considered in the paper.
 The first line contains the number of vertices of the instance. All the other lines, one for each vertex v, contains
