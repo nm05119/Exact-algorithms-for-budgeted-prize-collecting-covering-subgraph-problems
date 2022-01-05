@@ -12,10 +12,10 @@ of the two cases of budgeted prize-collecting covering subgraph problems conside
 For the definition of the symbols and the terms hereby used, and for references to the original sources of the 
 instances, we refer to the paper mentioned above.
 
-The directory "Instances" contains six .inst files, corresponding to the six base instances considered in the paper.
-The first line contains the number of vertices of the instance. All the other lines, one for each vertex v, contains
-in the order: the x-coordinate, the y-coordinate and the full prize p_v, separated by a space. All the base instances
-are Euclidean and symmetric.
+The directory "Instances" contains seven .inst files, corresponding to the six base instances considered in the paper,
+and to the instance shown in Figure 1 of the paper. The first line of these files contains the number of vertices of
+the instance. All the other lines, one for each vertex v, contains in the order: the x-coordinate, the y-coordinate
+and the full prize p_v, separated by a space. All the base instances are Euclidean and symmetric.
 
 Each of the two directories "Tour-BPCCSP" and "Tree-BPCCSP" contain the following three subdirectories: "Parameters",
 "Branch-and-Cut" and "Benders". The subdirectories "Parameters" contain six .param files. The .param files contain 72
@@ -27,4 +27,4 @@ Both the "Branch-and-cut" and "Benders" subdirectories contain six .out files. E
 computational results corresponding to a single instance. The definition of the values contained in each .out file is
 in its first line. If an instance was not solved within the time limit, i.e., 3600 seconds, then the final gap is given
 between parenthesis instead of the optimal value. If an instance could not be solved because of the solver running out
-of memory, all the values in the corresponding line are replaced with "-".
+of memory, then the corresponding line was removed from the .out file.
