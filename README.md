@@ -28,3 +28,8 @@ computational results corresponding to a single instance. The definition of the 
 in its first line. If an instance was not solved within the time limit, i.e., 3600 seconds, then the final MIP gap is given
 between parenthesis instead of the optimal value. If an instance could not be solved because of the solver running out
 of memory, then the corresponding line was removed from the .out file.
+
+----------------------------------------------------------------------------------------------------------------
+
+Morandi, N., Leus, R., & Yaman, H. (2022). Exact algorithms for budgeted prize-collecting covering subgraph problems.
+Computers & Operations Research, volume 144, 105798.
